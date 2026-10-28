@@ -20,7 +20,7 @@
       var a = e.target.closest && e.target.closest('a[href]');
       if (!a) return;
       var href = a.href || '', name = null, p = {course: COURSE, link_text: (a.textContent || '').trim().slice(0, 40), link_url: href};
-      if (href.indexOf('forms.gle/NGkZhTFxfAryvY218') > -1) name = 'request_material';
+      if (href.indexOf('1FAIpQLSe-l_5n12v-pNSOrTfayW39A6FXygT_0yLA68I4Yptcw7gFZA') > -1) name = 'request_material';
       else if (/forms\.gle\/|docs\.google\.com\/forms\//.test(href)) name = 'apply_inquiry';
       else if (/courses\/[\w-]+\.html/.test(href) && COURSE === 'main') { name = 'view_course'; p.course = href.match(/courses\/([\w-]+)\.html/)[1]; }
       if (!name) return;
@@ -184,7 +184,7 @@ footer .copy{margin:6px 0 0;padding-top:16px;border-top:1px solid rgba(255,255,2
 <header class="hd">
   <div class="wrap">
     <a class="logo" href="index.html" aria-label="엘캠퍼스 AX 공개교육 홈"><img src="assets/img/lcampus_logo.png" alt="엘캠퍼스 LCAMPUS" width="309" height="39"></a>
-    <span class="co">with <b>헬로월드랩스</b><small>AX 전문 기업</small></span>
+    <span class="co">with <b>헬로월드랩스</b><small>협력 교육 과정</small></span>
     <nav class="gnb" aria-label="주 메뉴">
       <a class="on" href="#courses">교육과정</a>
       <a href="#guide">수강 안내</a>
@@ -198,7 +198,7 @@ footer .copy{margin:6px 0 0;padding-top:16px;border-top:1px solid rgba(255,255,2
   <div class="in">
     <span class="eyebrow">AX EDUCATION 2026</span>
     <h1>AX 공개교육</h1>
-    <p>엘캠퍼스가 AX 전문 기업 헬로월드랩스와 함께 운영하는 실무 교육 과정입니다.</p>
+    <p>엘캠퍼스와 헬로월드랩스가 함께 진행하는 AX 실무 교육 과정입니다.</p>
   </div>
 </section>
 
@@ -267,8 +267,8 @@ footer .copy{margin:6px 0 0;padding-top:16px;border-top:1px solid rgba(255,255,2
   <div class="wrap">
     <span class="f-logo"><img src="assets/img/lcampus_logo_white.png" alt="엘캠퍼스 LCAMPUS" width="309" height="39"></span>
     <div class="f-info">
-      <span><strong>(주)엘캠퍼스</strong> AX 공개교육</span>
-      <span>교육 운영 · AX 전문 기업 <strong>(주)헬로월드랩스</strong></span>
+      <span>주관 <strong>(주)엘캠퍼스</strong></span>
+      <span>훈련기관 <strong>(주)헬로월드랩스</strong> · 중소기업 인재 키움 프리미엄 훈련 과정 승인 기관</span>
     </div>
     <p class="copy">&copy; (주)엘캠퍼스 ALL RIGHTS RESERVED.</p>
   </div>
